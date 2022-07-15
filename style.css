@@ -1,3 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: black;
+    font-family: 'Edu SA Beginner';
+    background: url(./assets/bg.jpg) fixed right/cover;
+}
+
+#container {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow:  3px 10px 6px #00000085;
+    font-family: cursive;
+    width: 60%;
+    background-color: #7cffff;
+    padding: 50px;
+}
+
+h1 {
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+#range {
+    display: grid;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="range"] {
+    max-width: 300px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#composition {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    background: #009688;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: #e91e63;
+    color: white;
+}
+
+#submit {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    transition: 0.6s;
+}
+
+#submit:hover {
+    background: #e91e63;
+}
+
+#password {
+    margin: 10px auto;
+    color: black;
+    background: #e91e63;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.selected {
+    text-align: left;
+    font-family: cursive;
+    background: rgba(255, 255, 255, 0.459);
+    margin-right: 0;
 }
