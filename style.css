@@ -80,9 +80,3 @@ button:hover {
     border-radius: 7px;
 }
 
-.selected {
-    text-align: left;
-    font-family: cursive;
-    background: rgba(255, 255, 255, 0.459);
-    margin-right: 0;
-}
